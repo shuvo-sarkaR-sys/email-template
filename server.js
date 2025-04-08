@@ -22,7 +22,7 @@ let sendLogs = [];
 let transporter = null;
 let openTracker = {};
 
-app.use(cors({origin: "https://email-template-front-end.vercel.app/",
+app.use(cors({origin: "https://email-template-front-end.vercel.app",
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
